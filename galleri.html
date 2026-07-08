@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <title>Bilder - Fiske utan Christian</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      background: #111;
+      font-family: sans-serif;
+    }
+    a.back {
+      display: inline-block;
+      color: white;
+      background: rgba(255,255,255,0.15);
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-bottom: 20px;
+    }
+    a.back:hover {
+      background: rgba(255,255,255,0.3);
+    }
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+    .grid img {
+      max-width: 300px;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <a class="back" href="index.html">← Tillbaka</a>
+  <div class="grid">
+    <img src="bilder/bild1.jpg">
+    <img src="bilder/bild2.jpg">
+    <img src="bilder/bild3.jpg">
+  </div>
+</body>
+</html>
